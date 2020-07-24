@@ -7,13 +7,13 @@
 #
 theme            : template
 
-theme-background : [ "linear-gradient(100deg, white 90%, #1974bf 10%)" ]
+theme-background : [ "#000000" ]
 theme-headline   : [ "Ubuntu", "#1974bf", "none" ]
 theme-byline     : [ "ubuntu", "#111111", "none" ]
 theme-text       : [ "Raleway", "#333", "none" ]
 theme-links      : [ "#7FDBFF", "#0074D9" ]
 theme-controls   : [ "#C0C0C0" ]
-theme-code       : [ "Victor Mono Italic" ]
+theme-code       : [ "Source Code Pro", "100", "120" ]
 
 highlight        : tomorrow
 #
@@ -39,7 +39,7 @@ layout : center
 # Footnote Setting
 # Doc: https://gitpitch.com/docs/settings/footnote
 #
-footnote : "Reproducible Research"
+footnote : "Global Studies"
 
 #
 # Published Setting
@@ -51,6 +51,6 @@ published : true
 # Twitter Card Settings [Pro Only]
 # Doc: https://gitpitch.com/docs/settings/twitter-card
 #
-title : "Reproducible Research"
-description : "Short steps to Reproducible Research"
+title : "Global Studies"
+description : "Short intro to Method Track"
 #thumbnail : https://gitpitch.com/gpimg/tutorial-thumb.png

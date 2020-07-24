@@ -4,8 +4,8 @@ slideOptions:
   transition: slide
 ---
 
-# Global Studies - Method Track Statistics
-## Lecture 1
+# Global Studies
+
 
 **Carlos Utrilla Guerrero | Institute of Data Science**
 2019-12-10
@@ -14,14 +14,11 @@ slideOptions:
 
 ### Course Material 
 
-> @AmandaMiottoGU and 
-> @JulieToohey from Griffith University, 
-> authors of the original materials, last updated on 2020-07-08, CC BY-NC 4.0
-> https://colab.research.google.com/github/MaastrichtU-IDS/global-studies-methods/blob/master/notebooks/Index.ipynb#scrollTo=0gaW4qKEKG06
+> [Google Colab](https://colab.research.google.com/github/MaastrichtU-IDS/global-studies-methods/blob/master/notebooks/Index.ipynb#scrollTo=0gaW4qKEKG06)
 
 ---
 
-## What is Reproducible Research?
+## What is Data Science?
 
 ---
 
