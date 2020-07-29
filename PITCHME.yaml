@@ -7,8 +7,8 @@
 #
 theme            : template
 
-theme-background : [ "#000000" ]
-theme-headline   : [ "Ubuntu", "#1974bf", "none" ]
+theme-background : [ "#linear-gradient(100deg, white 90%, #FFA500 10%)" ]
+theme-headline   : [ "Ubuntu", "#FFA500", "none" ]
 theme-byline     : [ "ubuntu", "#111111", "none" ]
 theme-text       : [ "Raleway", "#333", "none" ]
 theme-links      : [ "#7FDBFF", "#0074D9" ]
