@@ -14,8 +14,8 @@ slideOptions:
 
 ### Course Material 
 
-> [Google Colab](https://colab.research.google.com/github/MaastrichtU-IDS/global-studies-methods/blob/master/notebooks/Index.ipynb#scrollTo=0gaW4qKEKG06)
-
+[Google Colab Index @fa[external-link]](https://colab.research.google.com/github/MaastrichtU-IDS/global-studies-methods/blob/master/notebooks/Index.ipynb#scrollTo=0gaW4qKEKG06)
+@snapend
 
 --
 
@@ -23,7 +23,7 @@ slideOptions:
 Let your code do the talking!
 @snapend
 
-```sql zoom-18
+```python zoom-22
 CREATE TABLE "topic" (
     "id" serial NOT NULL PRIMARY KEY,
     "forum_id" integer NOT NULL,
