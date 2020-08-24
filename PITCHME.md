@@ -1,15 +1,15 @@
 
-# Global Studies: 
+# Global Studies - Lecture 5
+
+
+[c.utrillaguerrero@maastrichtuniversity.nl](c.utrillaguerrero@maastrichtuniversity.nl)| @IDS-UM |
+2020-10-10
+---
 
 ### 9 Reproducible Research Things
 
 #### A Practical workshop to get researchers further down the reproducible research path
 
-
-c.utrillaguerrero@maastrichtuniversity.nl| Institute of Data Science |
-2020-10-10
-
-# Let's Get **Started**
 
 
 ---
