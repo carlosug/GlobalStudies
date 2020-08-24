@@ -1,13 +1,16 @@
-# Let's Get **Started**
----
 
-# Global Studies: 9 Reproducible Research Things
+# Global Studies: 
 
-## A Practical workshop to get researchers further down the reproducible research path
+### 9 Reproducible Research Things
+
+#### A Practical workshop to get researchers further down the reproducible research path
 
 
-**Carlos Utrilla Guerrero | Institute of Data Science**
+c.utrillaguerrero@maastrichtuniversity.nl| Institute of Data Science |
 2020-10-10
+
+# Let's Get **Started**
+
 
 ---
 
@@ -123,8 +126,8 @@ Documentation will also be important for any audits in your lab or if someone wo
 
 ---
 
-> `Documentation is a love letter to your future self - 
-[Damian Conway](https://www.azquotes.com/quote/1463174)`
+> Documentation is a **love** letter to your future self - 
+[Damian Conway](https://www.azquotes.com/quote/1463174)
 
 ---
 
