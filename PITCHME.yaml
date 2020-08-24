@@ -8,7 +8,7 @@
 theme            : template
 
 theme-background : [ "linear-gradient(100deg, white 90%, #1977bf 15%)" ]
-theme-headline   : [ "Ubuntu", "#1977bf", "none" ]
+theme-headline   : [ "Maven Pro", "#1977bf", "none" ]
 theme-byline     : [ "ubuntu", "#111111", "none" ]
 theme-text       : [ "Ubuntu", "#333", "none" ]
 theme-links      : [ "#7FDBFF", "#0074D9" ]
@@ -39,7 +39,7 @@ layout : center
 # Footnote Setting
 # Doc: https://gitpitch.com/docs/settings/footnote
 #
-footnote : "Global Studies"
+footnote : "Global Studies - [@c.utrillaguerrero@maastrichtuniversity.nl](@c.utrillaguerrero@maastrichtuniversity.nl)"
 
 #
 # Published Setting

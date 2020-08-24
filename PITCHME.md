@@ -1,60 +1,25 @@
----
-type: slide
-slideOptions:
-  transition: slide
+# Let's Get **Started**
 ---
 
-# Global Studies
+# Global Studies: 9 Reproducible Research Things
+
+## A Practical workshop to get researchers further down the reproducible research path
 
 
 **Carlos Utrilla Guerrero | Institute of Data Science**
-2019-12-10
+2020-10-10
 
 ---
 
-### Course Material 
+## Course Material 
 
 [Google Colab Index @fa[external-link]](https://colab.research.google.com/github/MaastrichtU-IDS/global-studies-methods/blob/master/notebooks/Index.ipynb#scrollTo=0gaW4qKEKG06)
 @snapend
 
---
-
-@snap[north-east span-100 text-pink text-06]
-Let your code do the talking!
-@snapend
-
-```python zoom-22
-CREATE TABLE "topic" (
-    "id" serial NOT NULL PRIMARY KEY,
-    "forum_id" integer NOT NULL,
-    "subject" varchar(255) NOT NULL
-);
-ALTER TABLE "topic"
-ADD CONSTRAINT forum_id
-FOREIGN KEY ("forum_id")
-REFERENCES "forum" ("id");
-```
-
-@snap[south span-100 text-gray text-08]
-@[1-5](You can step-and-ZOOM into fenced-code blocks, source files, and Github GIST.)
-@[6,7, zoom-13](Using GitPitch live code presenting with optional annotations.)
-@[8-9, zoom-12](This means no more switching between your slide deck and IDE on stage.)
-@snapend
-
-
----?image=assets/img/code.jpg&opacity=60&position=left&size=45% 100%
-
-@snap[east span-50 text-center]
-## Now It's **Your** Turn
-@snapend
-
-@snap[south-east span-50 text-center text-06]
-[Download GitPitch Desktop @fa[external-link]](https://gitpitch.com/docs/getting-started/tutorial/)
-@snapend
 
 ---
 
-## What is Data Science?
+## What is Reproducible Research?
 
 ---
 
@@ -74,17 +39,27 @@ Source: [Nature doi:10.1038/533452a](https://www.nature.com/news/polopoly_fs/7.3
 
 ---
 
+One of the **core principles** of the scientific process is that **other** scientists are able to **repeat** your experiment and come to the **same conclusion**
+
+---
+
 No one wants their research to be `retracted`
 
 * some data were missing
 * untracked version of changes
 * mistakes were made
   * true error
-  * fraud
+  * ecological falacies
   
 ---
 
-### Today we are going to learn 9 lessons to safeguard us against these situations
+---
+
+### Help researchers learn to be reproducible researchers
+  
+---
+
+### Today we are going to learn **9 lessons** to safeguard us against these situations
 
 ---
 
@@ -93,12 +68,12 @@ No one wants their research to be `retracted`
 ---
 
 ### What if a key person from your lab disappeared one day? 
-(family or personal emergency, no longer contactable)
+(e.g. family or personal emergency, no longer contactable)
 
 ---
 
 * Could you all continue your work?
-* Would you know where all `the data` is stored?
+* Would you know where all `the data` and other inputs are stored?
 * Could you keep running effectively for 1 month?
 
 `1 year?`
@@ -127,9 +102,8 @@ Source: [Upturned Microscope](https://theupturnedmicroscope.com/comic/real-vs-mo
 
 ---
 
-Documentation is all the material that provides official information or evidence of procedures,
-
-so that an outsider could understand the workings of your lab/experiment. 
+**Documentation** is all the material that provides official information or evidence of procedures,
+so that an outsider could understand the workings of your research lab/institute. 
 
 ---
 
@@ -149,8 +123,8 @@ Documentation will also be important for any audits in your lab or if someone wo
 
 ---
 
-`Documentation is a love letter to your future self - 
-Damian Conway`
+> `Documentation is a love letter to your future self - 
+[Damian Conway](https://www.azquotes.com/quote/1463174)`
 
 ---
 
@@ -182,7 +156,7 @@ This can be anything from the location of the data to the code you use to create
 Now that you've got a good head start, time to learn about [Git Repositories](https://rogerdudler.github.io/git-guide/) and [wikis](https://help.github.com/en/github/building-a-strong-community/about-wikis).
 
 - A wiki is a collection of collaboratively authored web documents that help solve a problem.
-- Talk to eResearch support or the Library
+- Talk to IDS support or the UM Library
 
 ---
 
@@ -191,6 +165,7 @@ Now that you've got a good head start, time to learn about [Git Repositories](ht
 * [British Ecology Reproducibility Book](https://www.britishecologicalsociety.org/wp-content/uploads/2017/12/guide-to-reproducible-code.pdf)
 * [How to start documenting](https://www.cessda.eu/Training/Training-Resources/Library/Data-Management-Expert-Guide/2.-Organise-Document/Documentation-and-metadata) by CESSDA
 * [Software Carpentry Git Workshop](https://swcarpentry.github.io/git-novice/)
+* [Continuous Integration and continuous delivery](https://maastrichtu-ids.github.io/workshop-ci/) by IDS
 
 ---
 
@@ -216,9 +191,10 @@ A File Naming Convention (FNC) is a framework or protocol if you like for naming
 
 ### What are the benefits of using a file naming convention? 
 
-Naming files consistently, logically and in a predictably will prevent against unorganised files, misplaced or lost data.  It could also prevent possible backlogs or project delays. A file naming convention will ensure files are:
-
+Naming files consistently, logically and in a predictably will prevent against unorganised files, misplaced or lost data.  It could also prevent possible backlogs or project delays. 
 ---
+
+### A file naming convention will ensure files are:
 
 * Easier to process - All team members won't have to `overthink` the file naming process 
 * Easier to facilitate `access`, `retrieval` and storage of files
@@ -236,7 +212,7 @@ Former PhD student and subsequent founder of the Figshare platform, Mark Hahnel,
 
 ---
 
->*‘During my PhD I was never good at managing my research data. I had so many different file names for my data that I always 
+>‘During my PhD I was never good at managing my research data. I had so many different file names for my data that I always 
 > struggled to find the correct file quickly and easily when it was requested. My former PI was so horrified upon seeing
 > the state of my data organisation that she held an emergency lab book meeting with the rest of my group when I was leaving’. 
 > - Research Information, April/May 2014  
@@ -312,7 +288,7 @@ This will go on Documentation. - Remember that wiki we were talking about?
 
 ### Internal Resources
 
-* Talk to your eResearch Support or the Library services
+* Talk to UM Library services
 
 ---
 
