@@ -52,7 +52,7 @@ No one wants their research to be `retracted`
 * untracked version of changes
 * mistakes were made
   * true error
-  * ecological falacies
+  * ecological fallacies
   
 ---
 
