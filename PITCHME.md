@@ -64,7 +64,14 @@ interviews_plotting <- read_csv("data_output/interviews_plotting.csv")
 @[3,4, zoom-13](Using GitPitch live code presenting with optional annotations.)
 @snapend
 
-```r zoom-12
+
+---
+
+@snap[north-east span-100 text-pink text-06]
+If you hanve't done yet!
+@snapend
+
+```r zoom-8
 interviews_plotting <- interviews %>%
   ## pivot wider by items_owned
   separate_rows(items_owned, sep = ";") %>%
