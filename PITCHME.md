@@ -99,6 +99,74 @@ mutate(number_items = rowSums(select(., bicycle:car)))
 (e.g. family or personal emergency, no longer contactable)
 ---
 
+---
+
+@snap[north-east span-100 text-pink text-06]
+Let your code do the talking!
+@snapend
+
+```r zoom-18
+<DATA> %>%
+    ggplot(aes(<MAPPINGS>)) +
+    <GEOM_FUNCTION>()
+```
+
+@snap[south span-100 text-gray text-08]
+@[1](You can step-and-ZOOM into fenced-code blocks, source files, and Github GIST.)
+@[2-3, zoom-13](Using GitPitch live code presenting with optional annotations.)
+@snapend
+
+---
+
+---
+@title[Notes]
+
+@snap[north-west span-50 text-center]
+#### What you have learned:
+@snapend
+
+@snap[west span-55]
+@ul[list-spaced-bullets text-09]
+- Anything you put in ```ggplot()``` can be seen by any geo layers you added
+- You can specify **mapping with**  ``àes()``
+- The ```+```sign must be placed at the end of the line of _previous_layer
+- On function specifications
+@ulend
+@snapend
+
+
+@snap[east span-45]
+![IMAGE](assets/img/conference.png)
+@snapend
+
+@snap[south span-100 bg-black fragment]
+@img[shadow](assets/img/conference.png)
+@snapend
+
+---
+---
+
+@snap[north-east span-100 text-pink text-06]
+Let your code do the talking!
+@snapend
+
+```r zoom-18
+## This is the correct syntax for adding layers
+interviews_plot +
+    geom_point()
+
+## This will not add the new layer and will return an error message
+interviews_plot
++ geom_point()
+```
+
+@snap[south span-100 text-gray text-08]
+@[1](You can step-and-ZOOM into fenced-code blocks, source files, and Github GIST.)
+@[2-3, zoom-13](Using GitPitch live code presenting with optional annotations.)
+@snapend
+
+---
+
 
 ---?image=assets/img/code.jpg&opacity=60&position=left&size=45% 100%
 
