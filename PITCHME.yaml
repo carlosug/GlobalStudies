@@ -46,7 +46,7 @@ layout : center
 # Footnote Setting
 # Doc: https://gitpitch.com/docs/settings/footnote
 #
-footnote : "GitPitch - The Fastest Way From Idea To Presentation"
+footnote : "Data Carprentry - c.utrillaguerrero@maastrichtuniversity.nl"
 
 #
 # Published Setting
@@ -58,7 +58,7 @@ published : true
 # Twitter Card Settings [Pro Only]
 # Doc: https://gitpitch.com/docs/settings/twitter-card
 #
-title : "GitPitch In 60 Seconds"
-description : "A short tutorial introducing GitPitch Markdown Presentations for Developers."
+title : "Data Carprenty"
+description : "A short tutorial introducing Data Visualisation for data lovers."
 thumbnail : https://gitpitch.com/gpimg/tutorial-thumb.png
 
