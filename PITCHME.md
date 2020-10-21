@@ -1,5 +1,5 @@
 ---
-### A reward for all the hard work
+### A reward for all the hard work </br></br></br></br> 
 @title[Notes]
 
 @snap[east span-10]
@@ -36,7 +36,7 @@ Slides and code here
 
 ---
 
-> "The simple graph has brought more information to the data analyst’s mind than any other device. - **John Tukey**"
+> "The simple graph has brought more information to the data analyst’s mind than any other device. - *John Tukey*"
 @ulend
 ![IMAGE](assets/img/Tukey.jpg)
 @snapend
@@ -133,6 +133,26 @@ ggplot(aes(x = no_membrs, y = number_items)) +
 geom_point()
 ```
 @ulend
+![IMAGE](assets/img/graph2.png)
+@snapend
+---
+@title[Add A Little Imagination]
+
+@snap[north-west span-50 text-center]
+@snapend
+
+@snap[west span-55]
+```r zoom-10
+# my first plot with x and y variables
+interviews_plotting %>%
+ggplot(aes(x = no_membrs, y = number_items)) +
+geom_point()
+```
+
+@ulend
+@snapend
+
+@snap[east span-45]
 ![IMAGE](assets/img/graph2.png)
 @snapend
 ---
