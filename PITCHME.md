@@ -39,13 +39,16 @@ Source: https://thenib.com
 
 ---
 
-![image](https://raw.githubusercontent.com/orchid00/ReproducibleResearchThings/gh-pages/assets/img/reproducibility-graphic-online3.jpg)
+### What are we getting into?
 
-Source: [Nature doi:10.1038/533452a](https://www.nature.com/news/polopoly_fs/7.36718.1464174471!/image/reproducibility-graphic-online3.jpg_gen/derivatives/landscape_630/reproducibility-graphic-online3.jpg)
+```ggplot2``` is a huge package: tons of functions....but it's very well organized
+
+
 
 ---
 
-One of the **core principles** of the scientific process is that **other** scientists are able to **repeat** your experiment and come to the **same conclusion**
+You will know _where_ and _what_ to look for
+---?image=assets/img/poppins-bag.gif&opacity=60&position=right&size=45% 100%
 
 ---
 
