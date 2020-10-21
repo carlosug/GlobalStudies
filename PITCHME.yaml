@@ -1,40 +1,33 @@
-# GitPitch In-60-Seconds - A Very Short Tutorial.
+# GitPitch 
 #
 
 #
-# Theme Template
-# Doc: https://gitpitch.com/docs/themes/default
+# Theme Setting
+# Doc: https://gitpitch.com/docs/settings/theme
 #
 theme            : template
 
 theme-background : [ "linear-gradient(100deg, white 90%, #1977bf 15%)" ]
-theme-headline   : [ "Montserrat", "#FBD95E", "none", "#FFFFFF", "100", "120", "15" ]
-theme-byline     : [ "Raleway", "#FFFFFF", "none", "#FBD95E", "100", "110", "15" ]
-theme-text       : [ "Ubuntu", "#FFFFFF", "none", "#A0C865", "100", "100", "15" ]
-theme-links      : [ "#F1C40F", "#5254F7" ]
-theme-code       : [ "Source Code Pro", "100", "120" ]
+theme-headline   : [ "Maven Pro", "#1977bf", "none" ]
+theme-byline     : [ "ubuntu", "#111111", "none" ]
+theme-text       : [ "Ubuntu", "#333", "none" ]
+theme-links      : [ "#7FDBFF", "#0074D9" ]
 theme-controls   : [ "#C0C0C0" ]
-theme-margins    : [ "0", "15px" ]
-layout           : center
+theme-code       : [ "Ubuntu" ]
 
-#
-# Highlight Setting
-# Doc: https://gitpitch.com/docs/settings/highlight
-#
-highlight : tomorrow
-
+highlight        : tomorrow
 #
 # Theme-Override Setting
 # Doc: https://gitpitch.com/docs/settings/custom-theme
 #
-theme-override: assets/css/PITCHME.css
+# theme-override: assets/css/PITCHME.css
 
 #
 # Logo Setting
 # https://gitpitch.com/docs/settings/logo
 #
-logo : assets/img/logo.png
-logo-position : top-left
+#logo : assets/img/logo.png
+#logo-position : top-left
 
 #
 # Layout Setting
@@ -46,7 +39,7 @@ layout : center
 # Footnote Setting
 # Doc: https://gitpitch.com/docs/settings/footnote
 #
-footnote : "Data Carprentry - c.utrillaguerrero@maastrichtuniversity.nl"
+footnote : "c.utrillaguerrero@maastrichtuniversity.nl"
 
 #
 # Published Setting
@@ -58,7 +51,6 @@ published : true
 # Twitter Card Settings [Pro Only]
 # Doc: https://gitpitch.com/docs/settings/twitter-card
 #
-title : "Data Carprenty"
-description : "A short tutorial introducing Data Visualisation for data lovers."
-thumbnail : https://gitpitch.com/gpimg/tutorial-thumb.png
-
+title : "Data Caprentry"
+description : "Introduction to Data Visualisation"
+#thumbnail : https://gitpitch.com/gpimg/tutorial-thumb.png
