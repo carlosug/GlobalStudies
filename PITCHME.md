@@ -2,7 +2,7 @@
 ### A reward for all the hard work
 @title[Notes]
 
-@snap[east span-50]
+@snap[east span-10]
 ![IMAGE](assets/img/hard-work.png)
 @snapend
 
