@@ -5,7 +5,7 @@
 
 ### A Gentle Intro to **```ggplot2```**</br></br></br></br></br></br></br></br>
 @snap[east span-45]
-![IMAGE](assets/img/logo.png)
+![IMAGE](assets/img/objectives.gif)
 @snapend
 Slides and code: carlosug github.
 @snapend
