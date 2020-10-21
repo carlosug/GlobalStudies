@@ -5,7 +5,7 @@
 
 ### A Gentle Intro to **```ggplot2```**</br></br></br></br></br></br></br></br>
 @snap[east span-45]
-![IMAGE](assets/img/objectives.gif)
+![IMAGE](assets/img/logo.png)
 @snapend
 Slides and code: carlosug github.
 @snapend
@@ -29,7 +29,7 @@ Slides and code: carlosug github.
 @snapend
 
 @snap[east span-45]
-![IMAGE](assets/img/conference.png)
+![IMAGE](assets/img/objectives.gif)
 @snapend
 ---
 
@@ -37,10 +37,8 @@ Slides and code: carlosug github.
 
 ---
 @snap[east span-45]
-![IMAGE](assets/img/Tukey.jpg)
-@snapend
+---?image=assets/img/Tukey.jpg&opacity=60&position=left&size=45% 100%
 > "The simple graph has brought more information to the data analyst’s mind than any other device."
-
 ---
 
 ### My personal reasons
