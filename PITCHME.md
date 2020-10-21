@@ -1,8 +1,8 @@
 ---
 
 @title[Notes]
----?image=assets/img/hex-ggplot2.png&opacity=30&position=right&size=45% 100%
-# A Gentle Intro to **```ggplot2```**
+---?image=assets/img/hex-ggplot2.png&opacity=30&position=right&size=60% 50%
+## A Gentle Intro to **```ggplot2```**
 
 ---
 @carlosug
