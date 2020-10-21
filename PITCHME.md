@@ -21,7 +21,7 @@ A Gentle Intro to **```ggplot2```**</br></br></br></br></br></br></br></br>
 
 @snap[west span-55]
 @ul[list-spaced-bullets text-09]
-- Produce scatter plots, boxplots using ```ggplot2```/
+- Produce scatter plots, boxplots using ```ggplot2```
 - Describe properly the entire process to create visualisation in R
 - Build complex and customized plots from data in a dataframe
 @ulend
@@ -33,6 +33,8 @@ A Gentle Intro to **```ggplot2```**</br></br></br></br></br></br></br></br>
 ---
 
 ## Why is it Important?
+
+---
 @snap[east span-45]
 ![IMAGE](assets/img/Tukey.png)
 @snapend
