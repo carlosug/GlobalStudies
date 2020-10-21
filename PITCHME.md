@@ -1,20 +1,16 @@
 ---
 
 @title[Notes]
-A Gentle Intro to **```ggplot2```**
+
+
+A Gentle Intro to **```ggplot2```**</br></br></br></br>
+
+
 @snap[east span-45]
 ![IMAGE](assets/img/logo.png)
 @snapend
 ---
-
-## What is ```ggplot2```?
-
----
-
-![image](assets/img/hex-ggplot2.png&opacity=60&position=right&size=45% 100%)
-
-Source: https://thenib.com
-
+## What will you learn today?
 
 ---
 @title[Add A Little Imagination]
@@ -34,16 +30,22 @@ Source: https://thenib.com
 @snap[east span-45]
 ![IMAGE](assets/img/hex-ggplot2.png)
 @snapend
+---
 
-@snap[south span-100 bg-black fragment]
-@img[shadow](assets/img/hex-ggplot2.png)
-@snapend
+## What is ```ggplot2```?
 
+---
+
+![image](assets/img/hex-ggplot2.png&opacity=60&position=right&size=45% 100%)
+
+Source: https://thenib.com
 
 ---
 
 ## Why is it Important?
----?image=assets/img/Tukey.jpg&opacity=60&position=left&size=45% 100%
+@snap[east span-45]
+![IMAGE](assets/img/Tukey.png)
+@snapend
 > "The simple graph has brought more information to the data analyst’s mind than any other device." --- John Tukey
 
 ---
@@ -60,13 +62,15 @@ Source: https://thenib.com
 ---
 
 ### What are we getting into?
+---
+
 
 ```ggplot2``` is a huge package: tons of functions....but it's very well organized
 
+@snap[east span-45]
+![IMAGE](assets/img/poppins-bag.gif)
+@snapend
 
-
----
----?image=assets/img/poppins-bag.gif&position=right&size=45% 100%
 You will know _where_ and _what_ to look for
 
 ---
