@@ -2,7 +2,7 @@
 ### A reward for all the hard work </br></br></br></br> 
 @title[Notes]
 
-@snap[east span-5]
+@snap[east span-2]
 ![IMAGE](assets/img/hardwork.png)
 @snapend
 
@@ -51,7 +51,7 @@ Slides and code here
 * Easy to **iterate**
 * Easy to be **consistent**
 @snap[north-east span-100 text-pink text-06]
-Why is it important?
+
 ---
 
 ## What are we getting into?
@@ -127,10 +127,6 @@ Getting started with ```ggplot2```
 @snap[north-east span-100 text-pink text-06]
 Example I
 @snapend
-@snap[north-west span-50 text-center]
-@snapend
-
-@snap[west span-55]
 
 ```r zoom-8
 # my first plot with x and y variables
@@ -138,19 +134,17 @@ interviews_plotting %>%
 ggplot(aes(x = no_membrs, y = number_items)) +
 geom_point()
 ```
-@ulend
+
 @snapend
 
 @snap[east span-15]
 ![IMAGE](assets/img/graph1.png)
 @snapend
 ---
-@title[Add A Little Imagination]
-
-@snap[north-west span-50 text-center]
+@snap[north-east span-100 text-pink text-06]
+Example I
 @snapend
 
-@snap[west span-55]
 ```r zoom-8
 # my first plot with x and y variables
 interviews_plotting %>%
@@ -158,7 +152,6 @@ ggplot(aes(x = no_membrs, y = number_items)) +
 geom_point()
 ```
 
-@ulend
 @snapend
 
 @snap[east span-15]
