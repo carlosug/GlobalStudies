@@ -144,14 +144,4 @@ geom_point()
 [Download GitPitch Desktop @fa[external-link]](https://gitpitch.com/docs/getting-started/tutorial/)
 @snapend
 
-
----
-[drag=25 60, drop=center, bg=#0074D9, set=text-white, fit=1.5, rotate=10]
-
-@ullist-spaced-bullets
-
-Lorem
-Ipsum
-Dolor
-Sit Amet @ul
 ---
