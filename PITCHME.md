@@ -38,8 +38,6 @@ Slides and code here
 @snapend
 
 ---
-@snap[north-east span-100 text-pink text-06]
-Why is it important?
 ### IMHO....
 * **Functional** data visualization
 	1. Wrange data
@@ -48,7 +46,8 @@ Why is it important?
 * Easy to **reason** about how data drives visualization
 * Easy to **iterate**
 * Easy to be **consistent**
-
+@snap[north-east span-100 text-pink text-06]
+Why is it important?
 ---
 
 ## What are we getting into?
@@ -129,10 +128,7 @@ interviews_plotting %>%
 ggplot(aes(x = no_membrs, y = number_items)) +
 geom_point()
 ```
-@ulend
-![IMAGE](assets/img/graph3.png)
-@snapend
-
+---?image=assets/img/graph3.png&opacity=10&position=left&size=25% 100%
 ---
 
 @snap[east span-50 text-center]
