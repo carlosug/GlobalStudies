@@ -4,9 +4,9 @@
 
 
 ### A Gentle Intro to **```ggplot2```**</br></br></br></br></br></br></br></br>
+@snap[east span-45]
 ![IMAGE](assets/img/logo.png)
 @snapend
-@snap[south span-100]
 Slides and code: carlosug github.
 @snapend
 
