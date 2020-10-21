@@ -9,6 +9,7 @@ Slides and code: github
 [c.utrillaguerrero@maastrichtuniversity.nl](c.utrillaguerrero@maastrichtuniversity.nl)
 ---
 
+---?image=assets/img/Tukey.jpg&opacity=60&position=left&size=45% 100%
 > "The simple graph has brought more information to the data analyst’s mind than any other device." --- John Tukey
 
 
