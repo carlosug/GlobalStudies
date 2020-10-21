@@ -1,14 +1,10 @@
 ---
 
 @title[Notes]
----?image=assets/img/logo.png
 A Gentle Intro to **```ggplot2```**
-
----
-
----?image=assets/img/Tukey.jpg&opacity=60&position=left&size=45% 100%
-> "The simple graph has brought more information to the data analyst’s mind than any other device." --- John Tukey
-
+@snap[east span-45]
+![IMAGE](assets/img/logo.png)
+@snapend
 ---
 
 ## What is ```ggplot2```?
@@ -24,35 +20,33 @@ Source: https://thenib.com
 @title[Add A Little Imagination]
 
 @snap[north-west span-50 text-center]
-#### Engage your Audience
+#### What will you learn today
 @snapend
 
 @snap[west span-55]
 @ul[list-spaced-bullets text-09]
-- You will be amazed
-- What you can achieve
-- With a **little imagination**
-- And GitPitch Markdown
+- Produce scatter plots, boxplots and time-series plots using ```ggplot2```
+- Describe properly the entire process to create visualisation in R
+- Build complex and customized plots from data in a dataframe
 @ulend
 @snapend
 
 @snap[east span-45]
-![IMAGE](assets/img/conference.png)
+![IMAGE](assets/img/hex-ggplot2.png)
 @snapend
 
 @snap[south span-100 bg-black fragment]
-@img[shadow](assets/img/conference.png)
+@img[shadow](assets/img/hex-ggplot2.png)
 @snapend
+
 
 ---
 
-## What you will learn today?
-
-- Produce scatter plots, boxplots and time-series plots using ```ggplot2```
-- Describe properly the entire process to create visualisation in R
-- Build complex and customized plots from data in a dataframe
-
 ## Why is it Important?
+---?image=assets/img/Tukey.jpg&opacity=60&position=left&size=45% 100%
+> "The simple graph has brought more information to the data analyst’s mind than any other device." --- John Tukey
+
+---
 
 ### My personal reasons
 * Functional data visualization
