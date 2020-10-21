@@ -4,6 +4,8 @@
 
 ### Add Some Slide Candy
 
+> "The simple graph has brought more information to the data analyst’s mind than any other device." --- John Tukey
+
 ![IMAGE](assets/img/presentation.png)
 
 ---?color=linear-gradient(180deg, white 75%, black 25%)
@@ -142,8 +144,8 @@ Let your code do the talking!
 
 ```r zoom-18
 # This is the correct syntax for adding layers
-interviews_plot +
-    geom_point()
+interviews_plot + 
+geom_point()
 
 # This will not add the new layer and will return an error message
 interviews_plot
