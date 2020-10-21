@@ -3,7 +3,7 @@
 @title[Notes]
 
 
-A Gentle Intro to **```ggplot2```**</br></br></br></br>
+A Gentle Intro to **```ggplot2```**</br></br></br></br></br></br></br></br>
 
 
 @snap[east span-45]
@@ -21,25 +21,15 @@ A Gentle Intro to **```ggplot2```**</br></br></br></br>
 
 @snap[west span-55]
 @ul[list-spaced-bullets text-09]
-- Produce scatter plots, boxplots and time-series plots using ```ggplot2```
+- Produce scatter plots, boxplots using ```ggplot2```/
 - Describe properly the entire process to create visualisation in R
 - Build complex and customized plots from data in a dataframe
 @ulend
 @snapend
 
 @snap[east span-45]
-![IMAGE](assets/img/hex-ggplot2.png)
+![IMAGE](assets/img/presentation.png)
 @snapend
----
-
-## What is ```ggplot2```?
-
----
-
-![image](assets/img/hex-ggplot2.png&opacity=60&position=right&size=45% 100%)
-
-Source: https://thenib.com
-
 ---
 
 ## Why is it Important?
@@ -65,13 +55,19 @@ Source: https://thenib.com
 ---
 
 
-```ggplot2``` is a huge package: tons of functions....but it's very well organized
+@snapend
+
+@snap[west span-55]
+@ul[list-spaced-bullets text-09]
+- is a huge package: tons of functions....but it's very well organized
+- You will know _where_ and _what_ to look for
+- Build complex and customized plots from data in a dataframe
+@ulend
+@snapend
 
 @snap[east span-45]
 ![IMAGE](assets/img/poppins-bag.gif)
 @snapend
-
-You will know _where_ and _what_ to look for
 
 ---
 
