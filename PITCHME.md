@@ -2,10 +2,9 @@
 
 @title[Notes]
 
-
-### A Gentle Intro to **```ggplot2```**</br></br></br></br></br></br></br></br>
-@snap[north-east span-100 text-blue text-06]
-Slides and code: carlosug github.
+@snap[west span-55]
+@ul[list-spaced-bullets text-09]
+- A Gentle Intro to **```ggplot2```**
 @snap[east span-45]
 ![IMAGE](assets/img/logo.png)
 @snapend
@@ -36,12 +35,13 @@ Slides and code: carlosug github.
 ## Why is it Important?
 
 ---
-@snap[north-east span-100 text-blue text-06]
-John Tukey, 1956-2000
-@snapend
-@snap[east span-45]
----?image=assets/img/Tukey.jpg&opacity=60&position=left&size=45% 100%
+@snap[west span-55]
+@ul[list-spaced-bullets text-09]
 > "The simple graph has brought more information to the data analyst’s mind than any other device."
+@snap[east span-45]
+![IMAGE](assets/img/Tukey.jpg)
+@snapend
+
 ---
 
 ### My personal reasons
@@ -67,23 +67,23 @@ ggplot2 as a lovely package for data visualisation
 ---
 @snapend
 
-@snap[west span-55]
+@snap[west span-100]
 @ul[list-spaced-bullets text-09]
 - is a huge package: tons of functions....but it's very well organized
-@snap[east span-45]
+@snap[east span-100]
 ![IMAGE](assets/img/hex-ggplot2.png)
 @snapend
 ---
 
 - You will know _where_ and _what_ to look for
-@snap[east span-45]
+@snap[east span-100]
 ![IMAGE](assets/img/poppins-bag.gif)
 @snapend
 
 ---
 - Build complex and customized plots from data in a dataframe
 @ulend
-![IMAGE](assets/img/poppins-bag-kids.git)
+![IMAGE](assets/img/poppins-bag-kids.gif)
 @snapend
 ---
 @snap[north-east span-100 text-pink text-06]
@@ -105,35 +105,6 @@ interviews_plotting <- read_csv("data_output/interviews_plotting.csv")
 
 ---
 
-@snap[north-east span-100 text-pink text-06]
-If you hanve't done yet!
-@snapend
-
-```r zoom-8
-interviews_plotting <- interviews %>%
-## pivot wider by items_owned
-separate_rows(items_owned, sep = ";") %>%
-## if there were no items listed, changing NA to no_listed_items
-replace_na(list(items_owned = "no_listed_items")) %>%
-mutate(items_owned_logical = TRUE) %>%
-pivot_wider(names_from = items_owned, 
-            values_from = items_owned_logical, 
-            values_fill = list(items_owned_logical = FALSE)) %>%
-## pivot wider by months_lack_food
-separate_rows(months_lack_food, sep = ";") %>%
-mutate(months_lack_food_logical = TRUE) %>%
-pivot_wider(names_from = months_lack_food, 
-            values_from = months_lack_food_logical, 
-            values_fill = list(months_lack_food_logical = FALSE)) %>%
-## add some summary columns
-mutate(number_months_lack_food = rowSums(select(., Jan:May))) %>%
-mutate(number_items = rowSums(select(., bicycle:car)))
-```
-@snapend
-
----
-
----
 
 @snap[north-east span-100 text-pink text-06]
 Getting started with ```ggplot2```
