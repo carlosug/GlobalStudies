@@ -2,10 +2,10 @@
 
 @title[Notes]
 
-@snap[west span-55]
+@snap[west span-75]
 @ul[list-spaced-bullets text-09]
-- A Gentle Intro to **```ggplot2```**
-@snap[east span-45]
+A Gentle Intro to **```ggplot2```**
+@snap[east span-55]
 ![IMAGE](assets/img/logo.png)
 @snapend
 
@@ -68,19 +68,19 @@ ggplot2 as a lovely package for data visualisation
 
 @snap[west span-100]
 @ul[list-spaced-bullets text-09]
-- is a huge package: tons of functions....but it's very well organized
-@snap[east span-100]
+Its a huge package: tons of functions....but it's very well organized
+@snap[east span-45]
 ![IMAGE](assets/img/hex-ggplot2.png)
 @snapend
 ---
 
-- You will know _where_ and _what_ to look for
+You will know _where_ and _what_ to look for
 @snap[east span-100]
 ![IMAGE](assets/img/poppins-bag.gif)
 @snapend
 
 ---
-- Build complex and customized plots from data in a dataframe
+and build complex and customized plots from data in a dataframe
 @ulend
 ![IMAGE](assets/img/poppins-bag-kids.gif)
 @snapend
@@ -133,11 +133,9 @@ ggplot(aes(x = no_membrs, y = number_items)) +
 geom_point()
 ```
 
----?image=assets/img/graph1.png&opacity=60&position=left&size=45% 100%
+---?image=assets/img/code.jpg&opacity=60&position=right&size=15% 20%
+
 ---
-
-
----?image=assets/img/code.jpg&opacity=60&position=left&size=45% 100%
 
 @snap[east span-50 text-center]
 ## Now It's **Your** Turn
