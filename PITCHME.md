@@ -128,24 +128,23 @@ Getting started with ```ggplot2```
 Example I
 @snapend
 
-```r zoom-8
-# my first plot with x and y variables
-interviews_plotting %>%
-ggplot(aes(x = no_membrs, y = number_items)) +
-geom_point()
+```r zoom-12
+<DATA> %>%
+    ggplot(aes(<MAPPINGS>)) +
+    <GEOM_FUNCTION>()
 ```
 
 @snapend
 
-@snap[east span-15]
+@snap[east span-45]
 ![IMAGE](assets/img/graph1.png)
 @snapend
 ---
 @snap[north-east span-100 text-pink text-06]
-Example I
+Example II
 @snapend
 
-```r zoom-8
+```r zoom-12
 # my first plot with x and y variables
 interviews_plotting %>%
 ggplot(aes(x = no_membrs, y = number_items)) +
@@ -154,7 +153,7 @@ geom_point()
 
 @snapend
 
-@snap[east span-15]
+@snap[east span-45]
 ![IMAGE](assets/img/graph2.png)
 @snapend
 ---
