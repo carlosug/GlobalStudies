@@ -3,7 +3,7 @@
 @title[Notes]
 
 @snap[east span-5]
-![IMAGE](assets/img/hard-work.png)
+![IMAGE](assets/img/hardwork.png)
 @snapend
 
 @snap[north-east span-100 text-pink text-06]
@@ -122,18 +122,27 @@ Getting started with ```ggplot2```
 
 ---
 
+## what will you achieve to make today in R!
+---
 @snap[north-east span-100 text-pink text-06]
-Examples of what will you achieve to make today in R!
+Example I
+@snapend
+@snap[north-west span-50 text-center]
 @snapend
 
-```r zoom-18
+@snap[west span-55]
+
+```r zoom-8
 # my first plot with x and y variables
 interviews_plotting %>%
 ggplot(aes(x = no_membrs, y = number_items)) +
 geom_point()
 ```
 @ulend
-![IMAGE](assets/img/graph2.png)
+@snapend
+
+@snap[east span-15]
+![IMAGE](assets/img/graph1.png)
 @snapend
 ---
 @title[Add A Little Imagination]
@@ -142,7 +151,7 @@ geom_point()
 @snapend
 
 @snap[west span-55]
-```r zoom-10
+```r zoom-8
 # my first plot with x and y variables
 interviews_plotting %>%
 ggplot(aes(x = no_membrs, y = number_items)) +
@@ -152,7 +161,7 @@ geom_point()
 @ulend
 @snapend
 
-@snap[east span-45]
+@snap[east span-15]
 ![IMAGE](assets/img/graph2.png)
 @snapend
 ---
