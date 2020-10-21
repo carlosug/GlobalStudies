@@ -1,6 +1,10 @@
 ---
-# A Gentle Intro to **```ggplot2```**
+### A reward for all the hard work
 @title[Notes]
+
+@snap[east span-50]
+![IMAGE](assets/img/hard-work.png)
+@snapend
 
 @snap[north-east span-100 text-pink text-06]
 Slides and code here
@@ -128,7 +132,9 @@ interviews_plotting %>%
 ggplot(aes(x = no_membrs, y = number_items)) +
 geom_point()
 ```
----?image=assets/img/graph3.png&opacity=10&position=left&size=25% 100%
+@ulend
+![IMAGE](assets/img/graph2.png)
+@snapend
 ---
 
 @snap[east span-50 text-center]
