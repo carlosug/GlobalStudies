@@ -2,9 +2,9 @@
 
 @title[Notes]
 
-@snap[west span-75]
-@ul[list-spaced-bullets text-09]
-A Gentle Intro to **```ggplot2```** </br></br></br></br></br>
+@snap[north-east span-100 text-pink text-06]
+A Gentle Intro to **```ggplot2```**
+@snapend
 @snap[east span-55]
 ![IMAGE](assets/img/logo.png)
 @snapend
