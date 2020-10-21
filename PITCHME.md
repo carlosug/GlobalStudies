@@ -132,8 +132,7 @@ interviews_plotting %>%
 ggplot(aes(x = no_membrs, y = number_items)) +
 geom_point()
 ```
-
----?image=assets/img/code.jpg&opacity=60&position=right&size=15% 20%
+?image=assets/img/graph1.png&opacity=60&position=right&size=15% 20%
 
 ---
 
