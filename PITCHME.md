@@ -1,7 +1,7 @@
 ---
 
 @title[Notes]
----?image=assets/img/hex-ggplot2.png&opacity=30&position=right&size=60% 50%
+---?image=assets/img/hex-ggplot2.png&opacity=10&position=right&size=10% 50%
 ## A Gentle Intro to **```ggplot2```**
 
 ---
