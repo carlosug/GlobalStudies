@@ -38,18 +38,6 @@ Source: https://thenib.com
 	* Easy to be consistent
 
 ---
----
-.left-column[
-![](images/Tukey.jpg)
-__Hadley Wickham__
-]
-
-.right-column[.font150[
-The transferrable skills from ggplot2 are not the idiosyncracies of plotting syntax, but a powerful way of thinking about visualisation, as a way of **mapping between variables and the visual properties of geometric objects** that you can perceive.
-]
-.footnote[<http://disq.us/p/sv640d>]
-]
----
 
 ### What are we getting into?
 
@@ -58,7 +46,7 @@ The transferrable skills from ggplot2 are not the idiosyncracies of plotting syn
 
 
 ---
----?image=assets/img/poppins-bag.gif
+---?image=assets/img/poppins-bag.gif&position=right&size=45% 100%
 You will know _where_ and _what_ to look for
 
 
