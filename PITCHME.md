@@ -88,7 +88,7 @@ and build complex and customized plots from data in a dataframe
 Getting started with ```ggplot2```
 @snapend
 
-```r zoom-18
+```r zoom-8
 <DATA> %>% 
     ggplot(aes(<MAPPINGS>)) +
     <GEOM_FUNCTION>()
@@ -120,7 +120,7 @@ interviews_plotting %>%
 @[3](Drawing the plot as a dot plot)
 @snapend
 
-@snap[east span-45]
+@snap[east span-35]
 ![IMAGE](assets/img/graph1.png)
 @snapend
 ---
@@ -137,7 +137,7 @@ geom_count()
 
 @snapend
 
-@snap[east span-45]
+@snap[east span-35]
 ![IMAGE](assets/img/graph4.png)
 @snapend
 ---
@@ -156,7 +156,7 @@ percent_wall_type %>%
 
 @snapend
 
-@snap[east span-45]
+@snap[east span-35]
 ![IMAGE](assets/img/graph5.png)
 @snapend
 
@@ -165,7 +165,7 @@ percent_wall_type %>%
 Let your code do the talking!
 @snapend
 
-```r zoom-18
+```r zoom-8
 # install necessary packages
 library(tidyverse)
 # import data inputs
@@ -184,7 +184,7 @@ interviews_plotting <- read_csv("data_output/interviews_plotting.csv")
 @snapend
 
 @snap[south-east span-50 text-center text-06]
-[Download GitPitch Desktop @fa[external-link]](https://gitpitch.com/docs/getting-started/tutorial/)
+[Download Slides and Code](https://github.com/carlosug/in-data-carpentry-slides)
 @snapend
 
 ---
