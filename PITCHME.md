@@ -1,7 +1,7 @@
 ---
 
 @title[Notes]
----?image=assets/img/code.jpg&opacity=60&position=left&size=45% 100%
+---?image=assets/img/logo.jpg&opacity=60&position=left&size=45% 100%
 #### A Gentle Intro to **```ggplot2```**
 ---?image=assets/img/hex-ggplot2.jpg&opacity=60&position=right&size=45% 100%
 @snap[north-west span-50 text-center]
