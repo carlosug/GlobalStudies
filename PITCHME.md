@@ -1,12 +1,15 @@
 ---
-# Let's Get **Started**
+# A Gentle Intro to the Grammar of Graphics with ```ggplot2```
+
+@carlosug
+Slides and code: github
+
+---?image=assets/img/hex-ggplot2.jpg&opacity=60&position=left&size=45% 100%
 
 
-[c.utrillaguerrero@maastrichtuniversity.nl](c.utrillaguerrero@maastrichtuniversity.nl)| @IDS-UM |
-2020-10-10
+
+[c.utrillaguerrero@maastrichtuniversity.nl](c.utrillaguerrero@maastrichtuniversity.nl)
 ---
-
-## 9 Reproducible Research Things
 
 #### A Practical workshop to get researchers further down the reproducible research path
 
