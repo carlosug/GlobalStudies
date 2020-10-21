@@ -3,12 +3,8 @@
 @title[Notes]
 
 
-A Gentle Intro to **```ggplot2```**</br></br></br></br></br></br></br></br>
+# A Gentle Intro to **```ggplot2```**</br></br></br></br></br></br></br></br>
 
-
-@snap[east span-45]
-![IMAGE](assets/img/logo.png)
-@snapend
 ---
 ## What will you learn today?
 
@@ -28,7 +24,7 @@ A Gentle Intro to **```ggplot2```**</br></br></br></br></br></br></br></br>
 @snapend
 
 @snap[east span-45]
-![IMAGE](assets/img/presentation.png)
+![IMAGE](assets/img/logo.png)
 @snapend
 ---
 
@@ -36,9 +32,9 @@ A Gentle Intro to **```ggplot2```**</br></br></br></br></br></br></br></br>
 
 ---
 @snap[east span-45]
-![IMAGE](assets/img/Tukey.png)
+![IMAGE](assets/img/Tukey.jpg)
 @snapend
-> "The simple graph has brought more information to the data analyst’s mind than any other device." --- John Tukey
+> "The simple graph has brought more information to the data analyst’s mind than any other device."
 
 ---
 
@@ -55,6 +51,7 @@ A Gentle Intro to **```ggplot2```**</br></br></br></br></br></br></br></br>
 
 ### What are we getting into?
 ---
+
 
 
 @snapend
