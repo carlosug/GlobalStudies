@@ -1,7 +1,7 @@
 ---
 
 @title[Notes]
----?image=assets/img/hex-ggplot2.png&opacity=50&position=right&size=50% 50%
+---?image=assets/img/logo.png&opacity=60&position=right&size=50% 50%
 ## A Gentle Intro to **```ggplot2```**
 
 @carlosug
@@ -9,21 +9,13 @@ Slides and code: github
 [c.utrillaguerrero@maastrichtuniversity.nl](c.utrillaguerrero@maastrichtuniversity.nl)
 ---
 
-#### A Practical workshop to get researchers further down the reproducible research path
+> "The simple graph has brought more information to the data analyst’s mind than any other device." --- John Tukey
 
 
 
 ---
 
-## Course Material 
-
-[Google Colab Index @fa[external-link]](https://colab.research.google.com/github/MaastrichtU-IDS/global-studies-methods/blob/master/notebooks/Index.ipynb#scrollTo=0gaW4qKEKG06)
-@snapend
-
-
----
-
-## What is Reproducible Research?
+## What is ```ggplot2```?
 
 ---
 
@@ -34,6 +26,15 @@ Source: https://thenib.com
 ---
 
 ## Why is it Important?
+
+### My personal reasons
+* Functional data visualization
+	* Wrange data
+	* Map data to visual elements
+	* Tweak scales, guides, axis, labels, theme
+	* Easy to reason about how data drives visualization
+	* Easy to iterate
+	* Easy to be consistent
 
 ---
 
