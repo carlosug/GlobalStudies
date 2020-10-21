@@ -174,7 +174,7 @@ Let your code do the talking!
 
 ---
 @title[Notes]
-
+---?image=assets/img/code.jpg&opacity=60&position=right&size=45% 100%
 @snap[north-west span-50 text-center]
 #### What you have learned:
 @snapend
