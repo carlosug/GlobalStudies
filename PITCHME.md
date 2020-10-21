@@ -1,18 +1,13 @@
 ---
 
 @title[Notes]
----?image=assets/img/logo.png&opacity=60&position=right&size=50% 50%
-## A Gentle Intro to **```ggplot2```**
+---?image=assets/img/logo.png
+A Gentle Intro to **```ggplot2```**
 
-@carlosug
-Slides and code: github
-[c.utrillaguerrero@maastrichtuniversity.nl](c.utrillaguerrero@maastrichtuniversity.nl)
 ---
 
 ---?image=assets/img/Tukey.jpg&opacity=60&position=left&size=45% 100%
 > "The simple graph has brought more information to the data analyst’s mind than any other device." --- John Tukey
-
-
 
 ---
 
@@ -24,7 +19,38 @@ Slides and code: github
 
 Source: https://thenib.com
 
+
 ---
+@title[Add A Little Imagination]
+
+@snap[north-west span-50 text-center]
+#### Engage your Audience
+@snapend
+
+@snap[west span-55]
+@ul[list-spaced-bullets text-09]
+- You will be amazed
+- What you can achieve
+- With a **little imagination**
+- And GitPitch Markdown
+@ulend
+@snapend
+
+@snap[east span-45]
+![IMAGE](assets/img/conference.png)
+@snapend
+
+@snap[south span-100 bg-black fragment]
+@img[shadow](assets/img/conference.png)
+@snapend
+
+---
+
+## What you will learn today?
+
+- Produce scatter plots, boxplots and time-series plots using ```ggplot2```
+- Describe properly the entire process to create visualisation in R
+- Build complex and customized plots from data in a dataframe
 
 ## Why is it Important?
 
@@ -115,24 +141,7 @@ Let your code do the talking!
 @[2-3, zoom-13](Using GitPitch live code presenting with optional annotations.)
 @snapend
 
----
 
----
-@title[Notes]
----?image=assets/img/code.jpg&opacity=60&position=right&size=45% 100%
-@snap[north-west span-50 text-center]
-#### What you have learned:
-@snapend
-
-@snap[west span-55]
-@ul[list-spaced-bullets text-09]
-- Anything you put in ```ggplot()``` can be seen by any geo layers you added
-- You can specify **mapping with**  ```aes()```
-- The ```+``` sign must be placed at the end of the line of _previous layer_
-
-@ulend
-@snapend
----
 ---
 
 @snap[north-east span-100 text-pink text-06]
