@@ -1,10 +1,9 @@
 ---
 
 @title[Notes]
----?image=assets/img/hex-ggplot2.png&opacity=10&position=right&size=10% 50%
+---?image=assets/img/hex-ggplot2.png&opacity=50&position=right&size=50% 50%
 ## A Gentle Intro to **```ggplot2```**
 
----
 @carlosug
 Slides and code: github
 [c.utrillaguerrero@maastrichtuniversity.nl](c.utrillaguerrero@maastrichtuniversity.nl)
