@@ -4,7 +4,7 @@
 
 @snap[west span-75]
 @ul[list-spaced-bullets text-09]
-A Gentle Intro to **```ggplot2```**
+A Gentle Intro to **```ggplot2```** </br></br></br></br></br>
 @snap[east span-55]
 ![IMAGE](assets/img/logo.png)
 @snapend
