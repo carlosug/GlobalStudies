@@ -1,8 +1,8 @@
 ---
-### A reward for all the hard work </br></br></br></br> 
+## A reward for all the hard work </br></br></br></br> 
 @title[Notes]
 
-@snap[east span-2]
+@snap[east span-5 text-center]
 ![IMAGE](assets/img/hardwork.png)
 @snapend
 
@@ -21,9 +21,9 @@ Slides and code here
 
 @snap[west span-55]
 @ul[list-spaced-bullets text-09]
-- Produce scatter plots, boxplots using ```ggplot2```. </br>
-- Describe properly the entire process to create visualisation in R. </br>
-- Build complex and customized plots from data in a dataframe. </br>
+- Produce **plots** using ```ggplot2```. </br>
+- Describe properly the entire **process** to create visualisation in R. </br>
+- Build complex and customized plots from **data** in a dataframe. </br>
 @ulend
 @snapend
 
@@ -109,14 +109,14 @@ Getting started with ```ggplot2```
 @snapend
 
 ```r zoom-18
-<DATA> %>%
+<DATA> %>% 
     ggplot(aes(<MAPPINGS>)) +
     <GEOM_FUNCTION>()
 ```
 
-@snap[south span-100 text-gray text-08]
-@[1](Inputs before pipe operators)
-@[2-3, zoom-13](Specific arguments for ggplot)
+@snap[south span-100 text-blue text-08]
+@[1](Remember R expect inputs before **pipe** operators)
+@[2-3, zoom-13](Specific arguments for ggplot such  geom_point())
 @snapend
 
 
@@ -125,15 +125,19 @@ Getting started with ```ggplot2```
 ## what will you achieve to make today in R!
 ---
 @snap[north-east span-100 text-pink text-06]
-Example I
+Scatter plot with simple features
 @snapend
 
 ```r zoom-12
-<DATA> %>%
-    ggplot(aes(<MAPPINGS>)) +
-    <GEOM_FUNCTION>()
+interviews_plotting %>%
+    ggplot(aes(x = no_membrs, y = number_items)) +
+    geom_point()
 ```
 
+@snap[south span-100 text-blue text-08]
+@[1](adding the input data)
+@[2 zoom-13]((adding variables in axis)
+@[3 zoom-13]((drawing the plot as a dot plot)
 @snapend
 
 @snap[east span-45]
@@ -141,22 +145,40 @@ Example I
 @snapend
 ---
 @snap[north-east span-100 text-pink text-06]
-Example II
+Scatter plot with geom_count()
 @snapend
 
 ```r zoom-12
 # my first plot with x and y variables
 interviews_plotting %>%
-ggplot(aes(x = no_membrs, y = number_items)) +
-geom_point()
+ggplot(aes(x = no_membrs, y = number_items, color = village)) +
+geom_count()
 ```
 
 @snapend
 
 @snap[east span-45]
-![IMAGE](assets/img/graph2.png)
+![IMAGE](assets/img/graph4.png)
 @snapend
 ---
+@snap[north-east span-100 text-pink text-06]
+Barplot adding labels and titles
+@snapend
+
+```r zoom-12
+percent_wall_type %>%
+    ggplot(aes(x = village, y = percent, fill = respondent_wall_type)) +
+    geom_bar(stat = "identity", position = "dodge") +
+    labs(title = "Proportion of wall type by village",
+         x = "Village",
+         y = "Percent")
+```
+
+@snapend
+
+@snap[east span-45]
+![IMAGE](assets/img/graph5.png)
+@snapend
 
 @snap[east span-50 text-center]
 ## Now It's **Your** Turn
