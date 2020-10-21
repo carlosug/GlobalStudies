@@ -35,10 +35,9 @@
 ## Why is it Important?
 
 ---
-@snap[west span-55]
-@ul[list-spaced-bullets text-09]
+
 > "The simple graph has brought more information to the data analyst’s mind than any other device."
-@snap[east span-45]
+@ulend
 ![IMAGE](assets/img/Tukey.jpg)
 @snapend
 
@@ -125,24 +124,16 @@ Getting started with ```ggplot2```
 ---
 
 @snap[north-east span-100 text-pink text-06]
-Let your code do the talking!
+Examples of what will you achieve to make today in R!
 @snapend
 
 ```r zoom-18
-# This is the correct syntax for adding layers
-interviews_plot + 
+interviews_plotting %>%
+ggplot(aes(x = no_membrs, y = number_items)) +
 geom_point()
-
-# This will not add the new layer and will return an error message
-interviews_plot
-+ geom_point()
 ```
 
-@snap[south span-100 text-gray text-08]
-@[1-2](You can step-and-ZOOM into fenced-code blocks, source files, and Github GIST.)
-@[2-3, zoom-13](Using GitPitch live code presenting with optional annotations.)
-@snapend
-
+---?image=assets/img/graph1.png&opacity=60&position=left&size=45% 100%
 ---
 
 
