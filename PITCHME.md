@@ -1,13 +1,9 @@
 ---
-
+# A Gentle Intro to **```ggplot2```**
 @title[Notes]
 
 @snap[north-east span-100 text-pink text-06]
-A Gentle Intro to **```ggplot2```**
-@snapend
-@snap[east span-55]
-![IMAGE](assets/img/logo.png)
-@snapend
+Slides and code here
 
 ---
 ## What will you learn today?
@@ -36,46 +32,46 @@ A Gentle Intro to **```ggplot2```**
 
 ---
 
-> "The simple graph has brought more information to the data analyst’s mind than any other device. - John Tukey"
+> "The simple graph has brought more information to the data analyst’s mind than any other device. - **John Tukey**"
 @ulend
 ![IMAGE](assets/img/Tukey.jpg)
 @snapend
 
 ---
-
+@snap[north-east span-100 text-pink text-06]
+Why is it important?
 ### IMHO....
-* Functional data visualization
-	* Wrange data
-	* Map data to visual elements
-	* Tweak scales, guides, axis, labels, theme
-	* Easy to reason about how data drives visualization
-	* Easy to iterate
-	* Easy to be consistent
+* **Functional** data visualization
+	1. Wrange data
+	2. Map data to visual elements
+	3. Tweak scales, guides, axis, labels, theme
+* Easy to **reason** about how data drives visualization
+* Easy to **iterate**
+* Easy to be **consistent**
 
 ---
 
 ## What are we getting into?
 
 ---
-@snap[east span-45]
+@snap[east span-50]
 ![IMAGE](assets/img/hex-ggplot2.png)
 @snapend
 @snap[south span-100]
-ggplot2 as a lovely package for data visualisation
+**ggplot2** as a lovely package for **data visualisation**
 @snapend
 ---
-@snapend
-
-@snap[west span-100]
-@ul[list-spaced-bullets text-09]
-Its a huge package: tons of functions....but it's very well organized
-@snap[east span-45]
+@snap[east span-50]
 ![IMAGE](assets/img/hex-ggplot2.png)
 @snapend
+@snap[south span-100]
+Tons of arguments but very well organized
+@snapend
+---
 ---
 
-You will know _where_ and _what_ to look for
-@snap[east span-100]
+You will know **where** and **what** to look for
+@ulend
 ![IMAGE](assets/img/poppins-bag.gif)
 @snapend
 
@@ -97,8 +93,8 @@ interviews_plotting <- read_csv("data_output/interviews_plotting.csv")
 ```
 
 @snap[south span-100 text-gray text-08]
-@[1-2](You can step-and-ZOOM into fenced-code blocks, source files, and Github GIST.)
-@[3,4, zoom-13](Using GitPitch live code presenting with optional annotations.)
+@[1-2](You can start insalling the library)
+@[3,4, zoom-13](Using today morning dataset)
 @snapend
 
 
@@ -116,8 +112,8 @@ Getting started with ```ggplot2```
 ```
 
 @snap[south span-100 text-gray text-08]
-@[1](You can step-and-ZOOM into fenced-code blocks, source files, and Github GIST.)
-@[2-3, zoom-13](Using GitPitch live code presenting with optional annotations.)
+@[1](Inputs before pipe operators)
+@[2-3, zoom-13](Specific arguments for ggplot)
 @snapend
 
 
@@ -128,11 +124,14 @@ Examples of what will you achieve to make today in R!
 @snapend
 
 ```r zoom-18
+# my first plot with x and y variables
 interviews_plotting %>%
 ggplot(aes(x = no_membrs, y = number_items)) +
 geom_point()
 ```
-?image=assets/img/graph1.png&opacity=60&position=right&size=15% 20%
+@ulend
+![IMAGE](assets/img/graph3.png)
+@snapend
 
 ---
 
