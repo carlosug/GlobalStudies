@@ -4,6 +4,11 @@
 
 
 ### A Gentle Intro to **```ggplot2```**</br></br></br></br></br></br></br></br>
+![IMAGE](assets/img/logo.png)
+@snapend
+@snap[south span-100]
+Slides and code: carlosug github.
+@snapend
 
 ---
 ## What will you learn today?
