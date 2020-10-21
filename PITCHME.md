@@ -29,7 +29,7 @@ Slides and code: carlosug github.
 @snapend
 
 @snap[east span-45]
-![IMAGE](assets/img/logo.png)
+![IMAGE](assets/img/conference.png)
 @snapend
 ---
 
