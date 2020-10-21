@@ -36,14 +36,14 @@ A Gentle Intro to **```ggplot2```**
 
 ---
 
-> "The simple graph has brought more information to the data analyst’s mind than any other device."
+> "The simple graph has brought more information to the data analyst’s mind than any other device. - John Tukey"
 @ulend
 ![IMAGE](assets/img/Tukey.jpg)
 @snapend
 
 ---
 
-### My personal reasons
+### IMHO....
 * Functional data visualization
 	* Wrange data
 	* Map data to visual elements
@@ -144,3 +144,14 @@ geom_point()
 [Download GitPitch Desktop @fa[external-link]](https://gitpitch.com/docs/getting-started/tutorial/)
 @snapend
 
+
+---
+[drag=25 60, drop=center, bg=#0074D9, set=text-white, fit=1.5, rotate=10]
+
+@ullist-spaced-bullets
+
+Lorem
+Ipsum
+Dolor
+Sit Amet @ul
+---

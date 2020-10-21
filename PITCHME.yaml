@@ -8,9 +8,9 @@
 theme            : template
 
 theme-background : [ "linear-gradient(100deg, white 90%, #1977bf 15%)" ]
-theme-headline   : [ "Montserrat", "#FBD95E", "none", "#FFFFFF", "100", "120", "15" ]
-theme-byline     : [ "Raleway", "#FFFFFF", "none", "#FBD95E", "100", "110", "15" ]
-theme-text       : [ "Ubuntu", "#FFFFFF", "none", "#A0C865", "100", "100", "15" ]
+theme-headline   : [ "Montserrat", "#5ea5fb", "none", "#616060", "100", "120", "15" ]
+theme-byline     : [ "Raleway", "#616060", "none", "#fb5ed6", "100", "110", "15" ]
+theme-text       : [ "Ubuntu", "#616060", "none", "#5ea5fb", "100", "100", "15" ]
 theme-links      : [ "#F1C40F", "#5254F7" ]
 theme-code       : [ "Source Code Pro", "100", "120" ]
 theme-controls   : [ "#C0C0C0" ]
