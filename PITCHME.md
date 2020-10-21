@@ -85,26 +85,6 @@ and build complex and customized plots from data in a dataframe
 @snapend
 ---
 @snap[north-east span-100 text-pink text-06]
-Let your code do the talking!
-@snapend
-
-```r zoom-18
-# install necessary packages
-library(tidyverse)
-# import data inputs
-interviews_plotting <- read_csv("data_output/interviews_plotting.csv")
-```
-
-@snap[south span-100 text-gray text-08]
-@[1-2](You can start insalling the library)
-@[3,4, zoom-13](Using today morning dataset)
-@snapend
-
-
----
-
-
-@snap[north-east span-100 text-pink text-06]
 Getting started with ```ggplot2```
 @snapend
 
@@ -128,16 +108,16 @@ Getting started with ```ggplot2```
 Scatter plot with simple features
 @snapend
 
-```r zoom-12
+```r zoom-8
 interviews_plotting %>%
     ggplot(aes(x = no_membrs, y = number_items)) +
     geom_point()
 ```
 
 @snap[south span-100 text-blue text-08]
-@[1](adding the input data)
-@[2 zoom-13]((adding variables in axis)
-@[3 zoom-13]((drawing the plot as a dot plot)
+@[1](Adding the input data)
+@[2](Adding variables in axis)
+@[3](Drawing the plot as a dot plot)
 @snapend
 
 @snap[east span-45]
@@ -148,7 +128,7 @@ interviews_plotting %>%
 Scatter plot with geom_count()
 @snapend
 
-```r zoom-12
+```r zoom-8
 # my first plot with x and y variables
 interviews_plotting %>%
 ggplot(aes(x = no_membrs, y = number_items, color = village)) +
@@ -165,7 +145,7 @@ geom_count()
 Barplot adding labels and titles
 @snapend
 
-```r zoom-12
+```r zoom-8
 percent_wall_type %>%
     ggplot(aes(x = village, y = percent, fill = respondent_wall_type)) +
     geom_bar(stat = "identity", position = "dodge") +
@@ -179,6 +159,25 @@ percent_wall_type %>%
 @snap[east span-45]
 ![IMAGE](assets/img/graph5.png)
 @snapend
+
+---
+@snap[north-east span-100 text-pink text-06]
+Let your code do the talking!
+@snapend
+
+```r zoom-18
+# install necessary packages
+library(tidyverse)
+# import data inputs
+interviews_plotting <- read_csv("data_output/interviews_plotting.csv")
+```
+
+@snap[south span-100 text-gray text-08]
+@[1-2](You can start insalling the library)
+@[3,4, zoom-13](Using today morning dataset)
+@snapend
+---
+
 
 @snap[east span-50 text-center]
 ## Now It's **Your** Turn
