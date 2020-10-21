@@ -4,10 +4,10 @@
 
 
 ### A Gentle Intro to **```ggplot2```**</br></br></br></br></br></br></br></br>
+@snap[north-east span-100 text-blue text-06]
+Slides and code: carlosug github.
 @snap[east span-45]
 ![IMAGE](assets/img/logo.png)
-@snapend
-Slides and code: carlosug github.
 @snapend
 
 ---
@@ -36,6 +36,9 @@ Slides and code: carlosug github.
 ## Why is it Important?
 
 ---
+@snap[north-east span-100 text-blue text-06]
+John Tukey, 1956-2000
+@snapend
 @snap[east span-45]
 ---?image=assets/img/Tukey.jpg&opacity=60&position=left&size=45% 100%
 > "The simple graph has brought more information to the data analyst’s mind than any other device."
@@ -53,32 +56,36 @@ Slides and code: carlosug github.
 ---
 
 ## What are we getting into?
+
+---
 @snap[east span-45]
 ![IMAGE](assets/img/hex-ggplot2.png)
 @snapend
 @snap[south span-100]
-Snap Layouts let you create custom slide designs directly within your markdown.
+ggplot2 as a lovely package for data visualisation
 @snapend
 ---
-
-
-
 @snapend
 
 @snap[west span-55]
 @ul[list-spaced-bullets text-09]
 - is a huge package: tons of functions....but it's very well organized
-- You will know _where_ and _what_ to look for
-- Build complex and customized plots from data in a dataframe
-@ulend
+@snap[east span-45]
+![IMAGE](assets/img/hex-ggplot2.png)
 @snapend
+---
 
+- You will know _where_ and _what_ to look for
 @snap[east span-45]
 ![IMAGE](assets/img/poppins-bag.gif)
 @snapend
 
 ---
-
+- Build complex and customized plots from data in a dataframe
+@ulend
+![IMAGE](assets/img/poppins-bag-kids.git)
+@snapend
+---
 @snap[north-east span-100 text-pink text-06]
 Let your code do the talking!
 @snapend
@@ -129,7 +136,7 @@ mutate(number_items = rowSums(select(., bicycle:car)))
 ---
 
 @snap[north-east span-100 text-pink text-06]
-Let your code do the talking!
+Getting started with ```ggplot2```
 @snapend
 
 ```r zoom-18
