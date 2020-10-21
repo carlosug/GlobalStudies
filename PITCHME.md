@@ -3,7 +3,7 @@
 @title[Notes]
 
 
-# A Gentle Intro to **```ggplot2```**</br></br></br></br></br></br></br></br>
+### A Gentle Intro to **```ggplot2```**</br></br></br></br></br></br></br></br>
 
 ---
 ## What will you learn today?
@@ -12,14 +12,14 @@
 @title[Add A Little Imagination]
 
 @snap[north-west span-50 text-center]
-#### What will you learn today
+#### You'll know how to:
 @snapend
 
 @snap[west span-55]
 @ul[list-spaced-bullets text-09]
-- Produce scatter plots, boxplots using ```ggplot2```
-- Describe properly the entire process to create visualisation in R
-- Build complex and customized plots from data in a dataframe
+- Produce scatter plots, boxplots using ```ggplot2```. </br>
+- Describe properly the entire process to create visualisation in R. </br>
+- Build complex and customized plots from data in a dataframe. </br>
 @ulend
 @snapend
 
@@ -49,7 +49,13 @@
 
 ---
 
-### What are we getting into?
+## What are we getting into?
+@snap[east span-45]
+![IMAGE](assets/img/hex-ggplot2.png)
+@snapend
+@snap[south span-100]
+Snap Layouts let you create custom slide designs directly within your markdown.
+@snapend
 ---
 
 
