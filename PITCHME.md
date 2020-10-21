@@ -1,13 +1,11 @@
 ---
-# A Gentle Intro to the Grammar of Graphics with ```ggplot2```
-
-@carlosug
-Slides and code: github
+#### A Gentle Intro to ```ggplot2```
 
 ---?image=assets/img/hex-ggplot2.jpg&opacity=60&position=left&size=45% 100%
 
-
-
+---
+@carlosug
+Slides and code: github
 [c.utrillaguerrero@maastrichtuniversity.nl](c.utrillaguerrero@maastrichtuniversity.nl)
 ---
 
