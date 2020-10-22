@@ -1,5 +1,5 @@
 ---
-## A reward for all the hard work </br></br></br></br> 
+## A reward for all your hard work </br></br></br></br> 
 @title[Notes]
 
 @snap[east span-5 text-center]
@@ -7,7 +7,7 @@
 @snapend
 
 @snap[north-east span-100 text-pink text-06]
-Gentle intro to Data Visualisation
+Gentle intro to Data Visualisation with **R**
 
 ---
 ## What will you learn today?
@@ -68,9 +68,8 @@ Gentle intro to Data Visualisation
 ![IMAGE](assets/img/hex-ggplot2.png)
 @snapend
 @snap[south span-100]
-Tons of arguments but very well organized
+Tons of arguments but very **well** organized
 @snapend
----
 ---
 
 You will know **where** and **what** to look for
@@ -79,7 +78,7 @@ You will know **where** and **what** to look for
 @snapend
 
 ---
-and build complex and customized plots from data in a dataframe
+and build complex and **customized plots** from data in a dataframe
 @ulend
 ![IMAGE](assets/img/poppins-bag-kids.gif)
 @snapend
@@ -102,7 +101,7 @@ Getting started with ```ggplot2```
 
 ---
 
-## what will you achieve to make today in R!
+## Examples of what is going to be your work today
 ---
 @snap[north-east span-100 text-pink text-06]
 Scatter plot with simple features
@@ -128,8 +127,9 @@ interviews_plotting %>%
 Scatter plot with geom_count()
 @snapend
 
-```r zoom-6
-# my first plot with x and y variables
+
+
+```r zoom-5
 interviews_plotting %>%
 ggplot(aes(x = no_membrs, y = number_items, color = village)) +
 geom_count()
@@ -172,7 +172,7 @@ library(tidyverse)
 interviews_plotting <- read_csv("data_output/interviews_plotting.csv")
 ```
 
-@snap[south span-100 text-gray text-08]
+@snap[south span-100 text-blue text-08]
 @[1-2](You can start insalling the library)
 @[3,4, zoom-13](Using today morning dataset)
 @snapend
