@@ -131,7 +131,8 @@ Scatter plot with geom_count()
 
 ```r zoom-5
 interviews_plotting %>%
-ggplot(aes(x = no_membrs, y = number_items, color = village)) +
+ggplot(aes(x = no_membrs, y = number_items,
+  color = village)) +
 geom_count()
 ```
 
@@ -147,7 +148,8 @@ Barplot adding labels and titles
 
 ```r zoom-6
 percent_wall_type %>%
-    ggplot(aes(x = village, y = percent, fill = respondent_wall_type)) +
+    ggplot(aes(x = village, y = percent,
+     fill = respondent_wall_type)) +
     geom_bar(stat = "identity", position = "dodge") +
     labs(title = "Proportion of wall type by village",
          x = "Village",
